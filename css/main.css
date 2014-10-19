@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+body a:link,
+body a:visited { 
+    text-decoration: none;
+    color: #0000AA;
+}
+
+body a:hover { 
+    color: #0000EE;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	
+	font-size: 300%;
+	margin: 0cm 0cm 0cm 0cm;
+}
+
+h2, h3 {
+	color: #505050;
+}
+
+h2 {
+	font-size: 150%;
+	margin: 0cm 0cm 0cm 0cm;
+}
+
+h3 {
+	font-size: 125%;
+	font-weight: 400;
+}
+
+.container-fluid {
+    background-image: url(../img/ricepaper_v3.png);
+    opacity: 0.9;
+    margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+    border-bottom: solid #EA4A00;
+    border-bottom-width: 5px;
+    color: #FFFFFF;
+}
+
+.tag-line {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0cm 0cm 0cm 0cm;
+}
+
+section {
+	padding: 1em;
+}
+
+#menu {
+	background-color: rgba(207, 205, 140, 0.5);
+	margin-right: 0em;
+	margin-left: 0em;
+}
+
+dt {
+	font-weight: 400;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+#about {
+	padding: 1em;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: solid #EC791F;
+    border-top-width: 5px;
+    font-size: 80%;
+    text-align: right;
+}
+
+.tag-line {
+    display: none;
+}
+
+nav a:link {
+    color: #55E;
+}
+
+nav a:hover { 
+    color: #00E;
+}
+
+nav ul {
+	padding: 0em;
+	margin: 0cm 0cm 0cm 0cm;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 1em;
+}
+
+.col-md-6 {
+	padding-left: 0px;
+}
+
+@media screen and (min-width: 992px) {
+	body {
+		background-image: url(../img/background.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	    background-attachment: fixed; 
+	    font-size: 18px;
+	}
+
+	.container-fluid {
+		margin-left: 30%;
+	    margin-top: 20px;
+	    margin-right: 20px;
+	    margin-bottom: 20px;
+	    padding: 0em;
+	}
+
+	.tag-line {
+    	display: inline;
+	}	
+
+	nav {
+		position: absolute;
+	    right: 30px;
+	    top: 30px;
+	}
+}
